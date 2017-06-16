@@ -1,0 +1,8 @@
+---
+applications:
+ - name: hackaton-team1
+   random-route: true
+   path: target/hackaton-0.0.1-SNAPSHOT.war
+   memory: 512M
+   instances: 1
+   buildpack: java_buildpack
